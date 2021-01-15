@@ -142,9 +142,6 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
-//
-//
-//
 var _default =
 {
   data: function data() {
@@ -152,7 +149,8 @@ var _default =
       title: 'map',
       latitude: 39.909,
       longitude: 116.39742,
-      covers: [{
+      covers: [
+      {
         latitude: 39.9085,
         longitude: 116.39747,
 
@@ -161,14 +159,16 @@ var _default =
 
         iconPath: '../../../static/location.png' },
 
+
       {
-        latitude: 39.90,
+        latitude: 39.9,
         longitude: 116.39,
 
 
 
 
         iconPath: '../../../static/location.png' }] };
+
 
 
 

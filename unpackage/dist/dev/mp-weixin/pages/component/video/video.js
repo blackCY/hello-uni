@@ -184,6 +184,7 @@ var _default =
   },
   onReady: function onReady(res) {
 
+    // 创建并返回 video 上下文 videoContext 对象。在自定义组件下，第二个参数传入组件实例 this，以操作组件内 <video> 组件
     this.videoContext = uni.createVideoContext('myVideo');
 
 
@@ -197,6 +198,7 @@ var _default =
   },
   methods: {
     sendDanmu: function sendDanmu() {
+      // 发送弹幕
       this.videoContext.sendDanmu({
         text: this.danmuValue,
         color: this.getRandomColor() });
